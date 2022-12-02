@@ -1,0 +1,18 @@
+Package: statsum
+Title: Summary Statistics
+Version: 0.1.0
+Authors@R: 
+    person("Yanbo", "Li", , "lyb000215@gmail.com", role = c("aut", "cre"))
+Description: Produce summary statistics (numeric minimum, first quartile (Q1), median, third quartile (Q3), maximum, range, and interquartile range (IQR), and standard deviation) on the numeric variable/column in the data 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    gapminder,
+    stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/PaulLiPaulLi/statsum
+BugReports: https://github.com/PaulLiPaulLi/statsum/issues
